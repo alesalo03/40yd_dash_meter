@@ -18,8 +18,8 @@ To solder:
 - soldering iron
 - 2xPCB boards
 - a lot of PCB jumper cables
-Other:
 
+Other:
 - 2xboxes to contain the two PCB boards
 - materials to build the pressure plate (I used wood but even plastic should work)
 
