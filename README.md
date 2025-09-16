@@ -2,23 +2,26 @@
 A repository that describes how to build a simple 40yd dash meter using two esp32 boards that communicates through ESP NOW.
 
 WHAT YOU NEED:
+
 Components:
-  2xESP32 boards (it is important these can use the ESP NOW protocol)
-  1xlcd1602 module (I used this but also a 7 segment led module with at least 4 numbers should work)
-  1xgreen led
-  1xred led
-  1x10kΩ trimmer
-  1x10kΩ resistor
-  2x330Ω resistor
-  1xHC-SR501 PIR Motion Sensor
+- 2xESP32 boards (it is important these can use the ESP NOW protocol)
+- 1xlcd1602 module (I used this but also a 7 segment led module with at least 4 numbers should work)
+- 1xgreen led
+- 1xred led
+- 1x10kΩ trimmer
+- 1x10kΩ resistor
+- 2x330Ω resistor
+- 1xHC-SR501 PIR Motion Sensor
+
 To solder:
-  1xsoldering station
-  soldering iron
-  2xPCB boards
-  a lot of PCB jumper cables
+- 1xsoldering station
+- soldering iron
+- 2xPCB boards
+- a lot of PCB jumper cables
 Other:
-  2xboxes to contain the two PCB boards
-  materials to build the pressure plate (I used wood but even plastic should work)
+
+- 2xboxes to contain the two PCB boards
+- materials to build the pressure plate (I used wood but even plastic should work)
 
 Description of the project:
 1. the first board is positioned at the start line, it is connected to the two leds and the pressure plate. The two leds are used to signal when it's possible to start and when the station is unable to measure. When the green light is on the athlete can put pressure on the board, when the hand is lifted form the plate teh first board sends a START message using the ESP NOW protocol.
